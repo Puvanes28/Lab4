@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Paragraph Content</title>
+    <script>
+        function changeContent() {
+            // Select the <p> inside the <div> by targeting the first <p> element within "myElement"
+            document.querySelector("#myElement p").innerHTML = "Hello there!";
+        }
+    </script>
+</head>
+<body>
+    <div id="myElement">
+        <p>Welcome to my website!</p>
+    </div>
+    <button onclick="changeContent()">Click Me</button>
+</body>
+</html>
